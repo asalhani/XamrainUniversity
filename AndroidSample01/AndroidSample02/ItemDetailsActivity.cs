@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+using Android.App;
+using Android.Content;
+using Android.OS;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+
+namespace AndroidSample02
+{
+    [Activity(Label = "ItemDetailsActivity")]
+    public class ItemDetailsActivity : Activity
+    {
+        protected override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.ItemDetails);
+
+            int position = Intent.GetIntExtra("ItemPosition", -1);
+            var item = MainActivity.Items[position];
+
+            FindViewById<TextView>(Resource.Id.lblName).Text = "Name: " + item.Name;
+            FindViewById<TextView>(Resource.Id.lblCount).Text = "Count: " + item.Count;
+        }
+    }
+}

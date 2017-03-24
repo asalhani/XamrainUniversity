@@ -1,2 +1,0 @@
-android.app.Application
-AndroidSample01.AndroidSample01
