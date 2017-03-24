@@ -1,0 +1,4 @@
+AndroidSample01.MainActivity, AndroidSample01;md581228d65ab291fbee5c937fb5e4f9e58.MainActivity
+AndroidSample01.MainActivity, AndroidSample01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md581228d65ab291fbee5c937fb5e4f9e58.MainActivity
+AndroidSample01.MainActivity;md581228d65ab291fbee5c937fb5e4f9e58.MainActivity
+androidsample01.MainActivity;md581228d65ab291fbee5c937fb5e4f9e58.MainActivity
