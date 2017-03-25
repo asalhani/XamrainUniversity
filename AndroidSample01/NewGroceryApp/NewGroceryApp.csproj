@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AboutActivity.cs" />
+    <Compile Include="AddItemActivity.cs" />
     <Compile Include="ListItemsActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Models\Item.cs" />
@@ -72,6 +73,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\ItemDetails.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AddItem.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

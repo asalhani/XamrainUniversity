@@ -4,6 +4,8 @@ using Android.OS;
 using System.Collections.Generic;
 using NewGroceryApp.Models;
 using System;
+using Android.Content;
+using Android.Runtime;
 
 namespace NewGroceryApp
 {
@@ -27,8 +29,23 @@ namespace NewGroceryApp
 
             btnAbout.Click += BtnAbout_Click;
             btnListItems.Click += BtnListItems_Click;
+            btnAddItem.Click += BtnAddItem_Click;
 
 
+        }
+
+        protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            if(requestCode == 100 && resultCode == Result.Ok)
+            {
+                //var itemName = 
+            }
+        }
+
+        private void BtnAddItem_Click(object sender, EventArgs e)
+        {
+            StartActivityForResult(typeof(AddItemActivity), 100);
         }
 
         private void BtnListItems_Click(object sender, EventArgs e)

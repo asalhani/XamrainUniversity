@@ -6,6 +6,7 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="NewGroceryApp" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:label="AboutActivity" android:name="md59529d7399a269e729d9097471d7bee59.AboutActivity" />
+    <activity android:label="AddItemActivity" android:name="md59529d7399a269e729d9097471d7bee59.AddItemActivity" />
     <activity android:label="ListItemsActivity" android:name="md59529d7399a269e729d9097471d7bee59.ListItemsActivity" />
     <activity android:icon="@drawable/icon" android:label="NewGroceryApp" android:name="md59529d7399a269e729d9097471d7bee59.MainActivity">
       <intent-filter>
