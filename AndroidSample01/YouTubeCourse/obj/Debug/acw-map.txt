@@ -1,0 +1,4 @@
+YouTubeCourse.MainActivity, YouTubeCourse;md5214a1539551d0362b09c11ba7ff983de.MainActivity
+YouTubeCourse.MainActivity, YouTubeCourse, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5214a1539551d0362b09c11ba7ff983de.MainActivity
+YouTubeCourse.MainActivity;md5214a1539551d0362b09c11ba7ff983de.MainActivity
+youtubecourse.MainActivity;md5214a1539551d0362b09c11ba7ff983de.MainActivity

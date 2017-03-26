@@ -19,7 +19,6 @@ G:\GitHub\XamrainUniversity\AndroidSample01\AndroidSample02\bin\Debug\AndroidSam
 G:\GitHub\XamrainUniversity\AndroidSample01\AndroidSample02\bin\Debug\AndroidSample02.pdb
 G:\GitHub\XamrainUniversity\AndroidSample01\AndroidSample02\bin\Debug\AndroidSample02.AndroidSample02.apk
 G:\GitHub\XamrainUniversity\AndroidSample01\AndroidSample02\bin\Debug\AndroidSample02.AndroidSample02-Signed.apk
-G:\GitHub\XamrainUniversity\AndroidSample01\AndroidSample02\obj\Debug\AndroidSample02.csprojResolveAssemblyReference.cache
 G:\GitHub\XamrainUniversity\AndroidSample01\AndroidSample02\obj\Debug\AndroidSample02.dll
 G:\GitHub\XamrainUniversity\AndroidSample01\AndroidSample02\obj\Debug\AndroidSample02.pdb
 G:\GitHub\XamrainUniversity\AndroidSample01\AndroidSample02\obj\Debug\android\bin\AndroidSample02.AndroidSample02.apk

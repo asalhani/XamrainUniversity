@@ -1,0 +1,8 @@
+ListViewApp.InstructorAdapter, ListViewApp;md52eb792cbb96e71f38db13368a88d9570.InstructorAdapter
+ListViewApp.InstructorAdapter, ListViewApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52eb792cbb96e71f38db13368a88d9570.InstructorAdapter
+ListViewApp.InstructorAdapter;md52eb792cbb96e71f38db13368a88d9570.InstructorAdapter
+listviewapp.InstructorAdapter;md52eb792cbb96e71f38db13368a88d9570.InstructorAdapter
+ListViewApp.MainActivity, ListViewApp;md52eb792cbb96e71f38db13368a88d9570.MainActivity
+ListViewApp.MainActivity, ListViewApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52eb792cbb96e71f38db13368a88d9570.MainActivity
+ListViewApp.MainActivity;md52eb792cbb96e71f38db13368a88d9570.MainActivity
+listviewapp.MainActivity;md52eb792cbb96e71f38db13368a88d9570.MainActivity

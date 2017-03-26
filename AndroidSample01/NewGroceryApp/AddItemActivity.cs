@@ -36,7 +36,7 @@ namespace NewGroceryApp
         {
             var resultIntent = new Intent();
             resultIntent.PutExtra("ItemName", txtItemName.Text);
-            resultIntent.PutExtra("ItemCount", txtItemCount.Text);
+            resultIntent.PutExtra("ItemCount", Convert.ToInt32(txtItemCount.Text));
             SetResult(Result.Ok, resultIntent);
             Finish();
         }

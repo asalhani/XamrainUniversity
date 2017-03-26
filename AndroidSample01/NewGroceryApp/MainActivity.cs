@@ -39,7 +39,11 @@ namespace NewGroceryApp
             base.OnActivityResult(requestCode, resultCode, data);
             if(requestCode == 100 && resultCode == Result.Ok)
             {
-                //var itemName = 
+                var itemName = data.GetStringExtra("ItemName");
+                var itemCount = data.GetIntExtra("ItemCount", -1);
+
+                Items.Add(new Item(itemName, itemCount));
+                StartActivity(typeof(ListItemsActivity));
             }
         }
 
